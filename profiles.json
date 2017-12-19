@@ -1,0 +1,19 @@
+{
+    'person01':{
+        'name': 'joe',   
+        'email': 'joe@gmail.com',
+        'gender': 'Male', 
+        'prefgender': 'Male',
+        'start': 'NY',
+        'destination': 'Spain'
+    },
+    'person02':{
+        'name': 'mary',   
+        'email': 'mary@gmail.com',
+        'gender': 'Female', 
+        'prefgender': 'Male',
+        'start': 'NY',
+        'destination': 'Portugal'
+    }
+    
+}
