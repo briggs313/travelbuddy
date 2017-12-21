@@ -8,6 +8,7 @@
     z-index: 10;
 }
 .carousel .item {
-    background-color: rgba(0, 0, 0, 0.8);
+/*    background-color: rgba(0, 0, 0, 0.8);*/
+    background-color:#25283d;
     height: 300px;
 }
