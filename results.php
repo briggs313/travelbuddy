@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" href="favicon.ico" type="faves/earth.ico">
     <link rel="icon" href="favicon.ico" type="faves/earth.ico">
-    <title>Travel Buddy</title>
+    <title>Travel Pal</title>
 
     <!-- css -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                <a class="navbar-brand"href="#">Travel Buddy website</a>
+                <a class="navbar-brand"href="#">Travel Pal</a>
             </div>
             <div class="collapse navbar-collapse"id="b-menu-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -49,19 +49,27 @@
     </div>
     <!-- /.navbar -->
     
-    <!-- 2-column layout -->
-        <div class="row row-offcanvas row-offcanvas-right">
-            <div class="col-xs-12 col-sm-9">
+     
 
-                <!-- jumbotron -->
-                <div class="jumbotron">
-                    <h1>Meet Your Travel Buddy</h1>
-                    <p>enter area for matches</p>
+     <!-- header -->
+    <div id="slider"class="carousel slide"data-ride="carousel">
+        <div class="carousel-inner">
+            <!-- slides -->
+            <div class="item active">
+                <img src="img/travelcontent1.jpg">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 style="font-family:'SurfingCapital';text-transform: uppercase;">
+                        <h1>Meet Your Match</h1>
+                        <p>who will you be travelling with</p>
                 </div>
-
-                <div class="row">
-
-
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+                
+		<div id="resultsdisplay"class="matches">
 
 <?php        
         $j = file_get_contents('profiles.json');
@@ -74,11 +82,17 @@
         $g=$_POST['gender'];
         $p=$_POST['prefgender'];
         echo $n;
+        echo "<br>";        
         echo $e;
+        echo "<br>"; 
         echo $s;
+        echo "<br>"; 
         echo $d;
+        echo "<br>"; 
         echo $g;
+        echo "<br>"; 
         echo $p;
+        echo "<br>"; 
     
 
 
@@ -97,8 +111,11 @@
             
 
             
-            
+           
             ?>
+          
+    </div>
+    
     
     </body>
 </html>

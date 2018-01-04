@@ -1,7 +1,7 @@
 
 /* customized carousel */
 .carousel {
-    height: 300px;
+    height: 500px;
     margin-bottom: 50px;
 }
 .carousel-caption {
@@ -10,5 +10,114 @@
 .carousel .item {
 /*    background-color: rgba(0, 0, 0, 0.8);*/
     background-color:#25283d;
-    height: 300px;
+    height: 500px;
 }
+
+
+@font-face {
+	       font-family: 'SurfingCapital';
+        src: url(../fonts/SurfingCapital.ttf);
+	       font-weight: normal;
+	       font-style: normal;
+/*        text-shadow: 0px 0px 20px (#fffcf7);*/
+            
+        }
+
+
+.jumbotron{
+        background-color:#6EB5C0;
+        background-size: 100% auto;
+        background-attachment: fixed;
+        background-position: center center;
+        text-align: left;
+        color:#e2e8e4;
+        border-color: #006C84;
+        width: 100%;
+        }
+
+.panel-default {
+  border-color: #006C84;
+}
+    
+
+.panel-title{
+        color:#006C84;
+        background-color: #6EB5C0;
+        border-color: #006C84;
+/*    THIS IS THE TEXT COLOR IN BOX*/
+}
+
+.panel-success > .panel-heading {
+  color: #006C84;
+  background-color: #6EB5C0;
+  border-color: #6EB5C0;
+}
+    
+
+.panel-primary > .panel-heading {
+  color: #006C84;
+  background-color: #6EB5C0;
+  border-color: #6EB5C0;
+}
+
+.panel-warning > .panel-heading {
+  color: #006C84;
+  background-color: #6EB5C0;
+  border-color: #6EB5C0;
+}
+    
+  .panel-danger > .panel-heading {
+  color: #006C84;
+  background-color: #6EB5C0;
+  border-color: #6EB5C0;
+}
+
+  .panel-info > .panel-heading {
+  color: #006C84;
+  background-color: #6EB5C0;
+  border-color: #6EB5C0;
+}
+
+.panel-well > .panel-heading {
+  color: #006C84;
+  background-color: #6EB5C0;
+  border-color: #6EB5C0;
+}
+.panel-default > .panel-heading {
+  color: #006C84;
+  background-color: #6EB5C0;
+  border-color: #6EB5C0;
+}
+
+
+    .resultshead{
+            background-color:#6EB5C0;
+            background-image: 
+            background-size: 100% auto;
+            background-attachment: fixed;
+            background-position: center center;
+            text-align: center;
+            width: 100%;
+        }
+    .resultseffect{
+            background-image:#6EB5C0;
+            background-size: 100% auto;
+            background-attachment: fixed;
+            background-position: center center;
+            opacity: .75%;
+            width: 100%;
+            padding:60px;
+        }
+
+
+.matches {
+    margin-bottom: 50px;
+    background-color:#25283d;
+    background-color:#6EB5C0;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+  
+    
