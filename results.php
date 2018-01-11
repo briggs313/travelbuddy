@@ -26,19 +26,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                <a class="navbar-brand"href="#">Travel Pal</a>
+                <a class="navbar-brand"href="#"><h2 style="font-family:'SurfingCapital';text-transform: uppercase;">Travel Pal</h2></a>
             </div>
             <div class="collapse navbar-collapse"id="b-menu-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Menu 1</a></li>
-                    <li><a href="#">Menu 2</a></li>
-                    <li><a href="#">Menu 3</a></li>
+                    <li class="active"><a href="http://www.citytechcedev.org/fssa/bridget/">Home</a></li>
+                    <li><a href="http://www.citytechcedev.org/fssa/bridget/">My Past Destinations</a></li>
+                    <li><a href="http://www.citytechcedev.org/fssa/bridget/">My Wish List</a></li>
                     <li class="dropdown">
                         <a href="#"class="dropdown-toggle"data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span><b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Option 1</a></li>
-                            <li><a href="#">Option 2</a></li>
-                            <li><a href="#">Option 3</a></li>
+                            <li><a href="#">My Profile</a></li>
+                            <li><a href="#">My Pals</a></li>
+                            <li><a href="#">My Destinations</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -60,8 +60,8 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1 style="font-family:'SurfingCapital';text-transform: uppercase;">
-                        <h1>Meet Your Match</h1>
-                        <p>who will you be travelling with</p>
+                        <h1 style="font-family:'SurfingCapital';text-transform: uppercase;">Meet Your Match</h1>
+                        <p>Here's your travel pal!</p>
                 </div>
                     </div>
                 </div>
@@ -81,18 +81,31 @@
         $d=$_POST['destination'];
         $g=$_POST['gender'];
         $p=$_POST['prefgender'];
+        echo "<p>First Name: ";
         echo $n;
-        echo "<br>";        
+        echo "</p>";
+        echo "<p>Email: ";
         echo $e;
-        echo "<br>"; 
+        echo "</p>";
+        echo "<p>Start: ";
         echo $s;
-        echo "<br>"; 
+        echo "</p>";
+        echo "<p>Destination: ";
         echo $d;
-        echo "<br>"; 
+        echo "</p>";
+        echo "<p>Gender: ";
         echo $g;
-        echo "<br>"; 
+        echo "</p>";
+        echo "<p>Travel Pal Gender: ";
         echo $p;
-        echo "<br>"; 
+        echo "</p>";
+            
+        echo "<br>";    
+        echo "<br>";   
+        echo "<br>";   
+        echo "<br>";   
+            
+        echo "<p>Your Matches! ";
     
 
 
